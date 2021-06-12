@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4E22243E64087170E4D26F /* Pods_Tim_Viec_FirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2E55C62B0F668517F13F76 /* Pods_Tim_Viec_FirebaseTests.framework */; };
+		E9BC2D60D47FED2ED0585DF3 /* Pods_Tim_Viec_Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B35EC1442882ABD78B2227E /* Pods_Tim_Viec_Firebase.framework */; };
+		FDA8B2A72674F6BF003EA4BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8B2A62674F6BF003EA4BE /* AppDelegate.swift */; };
+		FDA8B2A92674F6BF003EA4BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8B2A82674F6BF003EA4BE /* SceneDelegate.swift */; };
+		FDA8B2AB2674F6BF003EA4BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8B2AA2674F6BF003EA4BE /* ViewController.swift */; };
+		FDA8B2AE2674F6BF003EA4BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA8B2AC2674F6BF003EA4BE /* Main.storyboard */; };
+		FDA8B2B02674F6C1003EA4BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA8B2AF2674F6C1003EA4BE /* Assets.xcassets */; };
+		FDA8B2B32674F6C1003EA4BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDA8B2B12674F6C1003EA4BE /* LaunchScreen.storyboard */; };
+		FDA8B2BE2674F6C1003EA4BE /* Tim_Viec_FirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA8B2BD2674F6C1003EA4BE /* Tim_Viec_FirebaseTests.swift */; };
+		FDF5CCBD2675015800B13F7C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDF5CCBC2675015700B13F7C /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDA8B2BA2674F6C1003EA4BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDA8B29B2674F6BF003EA4BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDA8B2A22674F6BF003EA4BE;
+			remoteInfo = "Tim Viec Firebase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2E55C62B0F668517F13F76 /* Pods_Tim_Viec_FirebaseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tim_Viec_FirebaseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1447B2BB00CD7042D7988CA9 /* Pods-Tim Viec Firebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tim Viec Firebase.debug.xcconfig"; path = "Target Support Files/Pods-Tim Viec Firebase/Pods-Tim Viec Firebase.debug.xcconfig"; sourceTree = "<group>"; };
+		976E81F99F2B2E260F33B6C0 /* Pods-Tim Viec Firebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tim Viec Firebase.release.xcconfig"; path = "Target Support Files/Pods-Tim Viec Firebase/Pods-Tim Viec Firebase.release.xcconfig"; sourceTree = "<group>"; };
+		9B35EC1442882ABD78B2227E /* Pods_Tim_Viec_Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tim_Viec_Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B84521B4B4D856E21CB3CA /* Pods-Tim Viec FirebaseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tim Viec FirebaseTests.debug.xcconfig"; path = "Target Support Files/Pods-Tim Viec FirebaseTests/Pods-Tim Viec FirebaseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0ACD1455273953623810672 /* Pods-Tim Viec FirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tim Viec FirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-Tim Viec FirebaseTests/Pods-Tim Viec FirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
+		FDA8B2A32674F6BF003EA4BE /* Tim Viec Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tim Viec Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA8B2A62674F6BF003EA4BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		FDA8B2A82674F6BF003EA4BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
+		FDA8B2AA2674F6BF003EA4BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDA8B2AD2674F6BF003EA4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDA8B2AF2674F6C1003EA4BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDA8B2B22674F6C1003EA4BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDA8B2B42674F6C1003EA4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		FDA8B2B92674F6C1003EA4BE /* Tim Viec FirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tim Viec FirebaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA8B2BD2674F6C1003EA4BE /* Tim_Viec_FirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tim_Viec_FirebaseTests.swift; sourceTree = "<group>"; };
+		FDA8B2BF2674F6C1003EA4BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDF5CCBC2675015700B13F7C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDA8B2A02674F6BF003EA4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9BC2D60D47FED2ED0585DF3 /* Pods_Tim_Viec_Firebase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA8B2B62674F6C1003EA4BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4E22243E64087170E4D26F /* Pods_Tim_Viec_FirebaseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		969CE6540E1C864966FF1B32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1447B2BB00CD7042D7988CA9 /* Pods-Tim Viec Firebase.debug.xcconfig */,
+				976E81F99F2B2E260F33B6C0 /* Pods-Tim Viec Firebase.release.xcconfig */,
+				C2B84521B4B4D856E21CB3CA /* Pods-Tim Viec FirebaseTests.debug.xcconfig */,
+				F0ACD1455273953623810672 /* Pods-Tim Viec FirebaseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD876C875D2688E0C406F8A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B35EC1442882ABD78B2227E /* Pods_Tim_Viec_Firebase.framework */,
+				0E2E55C62B0F668517F13F76 /* Pods_Tim_Viec_FirebaseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDA8B29A2674F6BF003EA4BE = {
+			isa = PBXGroup;
+			children = (
+				FDA8B2A52674F6BF003EA4BE /* Tim Viec Firebase */,
+				FDA8B2BC2674F6C1003EA4BE /* Tim Viec FirebaseTests */,
+				FDA8B2A42674F6BF003EA4BE /* Products */,
+				969CE6540E1C864966FF1B32 /* Pods */,
+				CD876C875D2688E0C406F8A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDA8B2A42674F6BF003EA4BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8B2A32674F6BF003EA4BE /* Tim Viec Firebase.app */,
+				FDA8B2B92674F6C1003EA4BE /* Tim Viec FirebaseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDA8B2A52674F6BF003EA4BE /* Tim Viec Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				FDF5CCBC2675015700B13F7C /* GoogleService-Info.plist */,
+				FDA8B2AA2674F6BF003EA4BE /* ViewController.swift */,
+				FDA8B2AC2674F6BF003EA4BE /* Main.storyboard */,
+				FDA8B2C82674F700003EA4BE /* System FIles */,
+			);
+			path = "Tim Viec Firebase";
+			sourceTree = "<group>";
+		};
+		FDA8B2BC2674F6C1003EA4BE /* Tim Viec FirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8B2BD2674F6C1003EA4BE /* Tim_Viec_FirebaseTests.swift */,
+				FDA8B2BF2674F6C1003EA4BE /* Info.plist */,
+			);
+			path = "Tim Viec FirebaseTests";
+			sourceTree = "<group>";
+		};
+		FDA8B2C82674F700003EA4BE /* System FIles */ = {
+			isa = PBXGroup;
+			children = (
+				FDA8B2AF2674F6C1003EA4BE /* Assets.xcassets */,
+				FDA8B2A82674F6BF003EA4BE /* SceneDelegate.swift */,
+				FDA8B2A62674F6BF003EA4BE /* AppDelegate.swift */,
+				FDA8B2B12674F6C1003EA4BE /* LaunchScreen.storyboard */,
+				FDA8B2B42674F6C1003EA4BE /* Info.plist */,
+			);
+			path = "System FIles";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDA8B2A22674F6BF003EA4BE /* Tim Viec Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA8B2C22674F6C1003EA4BE /* Build configuration list for PBXNativeTarget "Tim Viec Firebase" */;
+			buildPhases = (
+				FFA7D134D1D9656C727261AE /* [CP] Check Pods Manifest.lock */,
+				FDA8B29F2674F6BF003EA4BE /* Sources */,
+				FDA8B2A02674F6BF003EA4BE /* Frameworks */,
+				FDA8B2A12674F6BF003EA4BE /* Resources */,
+				86B9A32E22032B41B7679A35 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tim Viec Firebase";
+			productName = "Tim Viec Firebase";
+			productReference = FDA8B2A32674F6BF003EA4BE /* Tim Viec Firebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDA8B2B82674F6C1003EA4BE /* Tim Viec FirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDA8B2C52674F6C1003EA4BE /* Build configuration list for PBXNativeTarget "Tim Viec FirebaseTests" */;
+			buildPhases = (
+				8B6371EF514DC28273C9375C /* [CP] Check Pods Manifest.lock */,
+				FDA8B2B52674F6C1003EA4BE /* Sources */,
+				FDA8B2B62674F6C1003EA4BE /* Frameworks */,
+				FDA8B2B72674F6C1003EA4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDA8B2BB2674F6C1003EA4BE /* PBXTargetDependency */,
+			);
+			name = "Tim Viec FirebaseTests";
+			productName = "Tim Viec FirebaseTests";
+			productReference = FDA8B2B92674F6C1003EA4BE /* Tim Viec FirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDA8B29B2674F6BF003EA4BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = Dark_Souls;
+				TargetAttributes = {
+					FDA8B2A22674F6BF003EA4BE = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					FDA8B2B82674F6C1003EA4BE = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = FDA8B2A22674F6BF003EA4BE;
+					};
+				};
+			};
+			buildConfigurationList = FDA8B29E2674F6BF003EA4BE /* Build configuration list for PBXProject "Tim Viec Firebase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDA8B29A2674F6BF003EA4BE;
+			productRefGroup = FDA8B2A42674F6BF003EA4BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDA8B2A22674F6BF003EA4BE /* Tim Viec Firebase */,
+				FDA8B2B82674F6C1003EA4BE /* Tim Viec FirebaseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDA8B2A12674F6BF003EA4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA8B2B32674F6C1003EA4BE /* LaunchScreen.storyboard in Resources */,
+				FDF5CCBD2675015800B13F7C /* GoogleService-Info.plist in Resources */,
+				FDA8B2B02674F6C1003EA4BE /* Assets.xcassets in Resources */,
+				FDA8B2AE2674F6BF003EA4BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA8B2B72674F6C1003EA4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		86B9A32E22032B41B7679A35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tim Viec Firebase/Pods-Tim Viec Firebase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tim Viec Firebase/Pods-Tim Viec Firebase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tim Viec Firebase/Pods-Tim Viec Firebase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B6371EF514DC28273C9375C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tim Viec FirebaseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFA7D134D1D9656C727261AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tim Viec Firebase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDA8B29F2674F6BF003EA4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA8B2AB2674F6BF003EA4BE /* ViewController.swift in Sources */,
+				FDA8B2A72674F6BF003EA4BE /* AppDelegate.swift in Sources */,
+				FDA8B2A92674F6BF003EA4BE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA8B2B52674F6C1003EA4BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDA8B2BE2674F6C1003EA4BE /* Tim_Viec_FirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDA8B2BB2674F6C1003EA4BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDA8B2A22674F6BF003EA4BE /* Tim Viec Firebase */;
+			targetProxy = FDA8B2BA2674F6C1003EA4BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDA8B2AC2674F6BF003EA4BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA8B2AD2674F6BF003EA4BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDA8B2B12674F6C1003EA4BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDA8B2B22674F6C1003EA4BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDA8B2C02674F6C1003EA4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDA8B2C12674F6C1003EA4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDA8B2C32674F6C1003EA4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1447B2BB00CD7042D7988CA9 /* Pods-Tim Viec Firebase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tim Viec Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.tdc.timviecfirebase.Tim-Viec-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDA8B2C42674F6C1003EA4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 976E81F99F2B2E260F33B6C0 /* Pods-Tim Viec Firebase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tim Viec Firebase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.tdc.timviecfirebase.Tim-Viec-Firebase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDA8B2C62674F6C1003EA4BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B84521B4B4D856E21CB3CA /* Pods-Tim Viec FirebaseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tim Viec FirebaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.tdc.timviecfirebase.Tim-Viec-FirebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tim Viec Firebase.app/Tim Viec Firebase";
+			};
+			name = Debug;
+		};
+		FDA8B2C72674F6C1003EA4BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0ACD1455273953623810672 /* Pods-Tim Viec FirebaseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tim Viec FirebaseTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vn.edu.tdc.timviecfirebase.Tim-Viec-FirebaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tim Viec Firebase.app/Tim Viec Firebase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDA8B29E2674F6BF003EA4BE /* Build configuration list for PBXProject "Tim Viec Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA8B2C02674F6C1003EA4BE /* Debug */,
+				FDA8B2C12674F6C1003EA4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA8B2C22674F6C1003EA4BE /* Build configuration list for PBXNativeTarget "Tim Viec Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA8B2C32674F6C1003EA4BE /* Debug */,
+				FDA8B2C42674F6C1003EA4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDA8B2C52674F6C1003EA4BE /* Build configuration list for PBXNativeTarget "Tim Viec FirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDA8B2C62674F6C1003EA4BE /* Debug */,
+				FDA8B2C72674F6C1003EA4BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDA8B29B2674F6BF003EA4BE /* Project object */;
+}

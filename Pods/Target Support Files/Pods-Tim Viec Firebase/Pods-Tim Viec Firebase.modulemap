@@ -1,0 +1,6 @@
+framework module Pods_Tim_Viec_Firebase {
+  umbrella header "Pods-Tim Viec Firebase-umbrella.h"
+
+  export *
+  module * { export * }
+}
